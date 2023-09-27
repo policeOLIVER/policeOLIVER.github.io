@@ -1,0 +1,132 @@
+<html lang="en">
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORYZA CUP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200;1,300;1,500;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+</head>
+<body>
+
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/logo.jpg"></a>
+            <div class="nav-links"  id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="ABOUT.html">ABOUT</a></li>
+                    <li><a href="CONTACT.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>CONTACT US</h1>
+</section>
+
+<!----contact us ---->
+
+
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3859.450149594375!2d121.09266197432105!3d14.687117185809544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397ba10aa6f4ec5%3A0x1ad0e4eaa02ac2c2!2sSinagtala%20St%2C%20Quezon%20City%2C%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1695613830386!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+<section class="contact-us">
+
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>Sinagtala st. Baranggay Batasan Hills</h5>
+                    <p>Quezon City, Phillipines</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>pontillohazel416@gmail.com</h5>
+                    <p>Email us to query </p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>0970 875 6919</h5>
+                    <p>Monday to Friday, 8AM to 5PM</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-instagram"></i>
+                <span>
+                    <h5>its_me_leziah</h5>
+                    <p>DM Anytime</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+
+            <form action="form-handler.php" method="post">
+                <input type="text"  name="name" placeholder="Enter Your Name" required>
+                <input type="email" name="email" placeholder="Enter Email Address" required>
+                <input type="text" name="flavor" placeholder="Enter Your Flavor" required>
+                <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                <button type="submit" class="hero-btn red-btn">Send Message</button>
+            </form>
+
+
+
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+<!---- footer ---->
+
+<section class="footer">
+    <h4>Contact Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Maiores accusamus, harum quis consectetur adipisci officiis aliquid, 
+         <br>ipsa facere tempore quam ex accusantium eius nulla nobis, 
+         doloribus eaque repellat fugiat laborum.</p>
+         <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-envelope-o"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-mobile number"></i>
+         </div>
+         <p>Made With  <i class="fa fa-heart-o"></i> By Easy Order</p>
+
+</section>
+
+
+<!-----JavaScript for Toggle Menu -->
+
+ <script>
+
+        var  navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+
+    </script>
+
+
+
+    
+</body>
+</html>

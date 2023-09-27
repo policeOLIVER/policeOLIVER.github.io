@@ -1,0 +1,182 @@
+<html lang="en">
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORYZA CUP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200;1,300;1,500;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+</head>
+<body>
+
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="img/logo.jpg"></a>
+            <div class="nav-links"  id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="ABOUT.html">ABOUT</a></li>
+                    <li><a href="CONTACT.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+<div class="text-box">
+    <h1>ORYZA CUP</h1>    <a href="" class="hero-btn">Visit Us To Know More</a>
+</div>
+
+</section>
+
+<!---- Flavors ---->
+
+<section class="flavors">
+    <h1>Flavors We Offer</h1>
+    <p>What Flavor Will You Love The Most?</p>
+
+    <div class="row">
+        <div class="flavors-col">
+            <h3>ORYZA WHIP BREW</h3>
+            <p>If you are the type of person who does not have a sweet tooth. Worry no more, 
+                as the whip brew is there to enjoy the taste of our rice coffee. 
+                The whip brew is composed of purely rice coffee with whip cream at the top to
+                 balance the bitterness and sweetness of the coffee.</p>
+        </div>
+        <div class="flavors-col">
+            <h3>ORYZA MILKY STRAWBERRY</h3>
+            <p>If you like a fruity taste, the milky strawberry is perfect for you. 
+                It gives off the fruity,sweet vibe of rice coffee. From the name itsef, Milky Strawberry
+                 balances the sweetness, fruitlines, and taste of signature rice coffee.</p>
+        </div>
+        <div class="flavors-col">
+            <h3>ORYZA CHOCO COFFEE</h3>
+            <p>Choco Coffee is one of the signature iced coffees of Oryza Cup, as it gives a balanced of taste of 
+                chocolate and rice coffee. This is perfect for you if you have a sweet tooth.</p>
+        </div>
+    </div>
+</section>
+
+<!---- prices ----->
+<section class="prices">
+    <h1>PRICES</h1>
+    <p>As of now Large Size is available. No small and grande sizes</p>
+
+    <div class="row">
+        <div class="prices-col">
+            <img src="img/whip brew.jpg">
+            <div class="layer">
+                <h3>WHIP BREW</h3>
+            </div>
+        </div>
+        <div class="prices-col">
+            <img src="img/milky strawberry.jpg">
+            <div class="layer">
+                <h3>MILKY STRAWBERRY</h3>
+            </div>
+        </div>
+        <div class="prices-col">
+            <img src="img/choco coffee.jpg">
+            <div class="layer">
+                <h3>CHOCO COFFEE</h3>
+            </div>
+        </div>  
+    </div>
+</section>
+
+<!---- testimonials ---->
+
+<section class="testimonials">
+    <h1>What Our Customers Says</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+
+    <div class="row">
+        <div class="testimonials-col">
+            <img src="img/picture-1.jpg">
+            <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Blanditiis molestiae porro eius quidem! Tempora sunt culpa eius nisi,
+                  veritatis omnis quo, numquam tenetur corporis possimus amet, architecto 
+                  incidunt quod consequuntur.</p>
+                  <h3>Jhonlee Rebuta</h3>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-o"></i>
+
+        </div>
+        </div>
+        <div class="testimonials-col">
+            <img src="img/picture-2.jpg">
+            <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Blanditiis molestiae porro eius quidem! Tempora sunt culpa eius nisi,
+                  veritatis omnis quo, numquam tenetur corporis possimus amet, architecto 
+                  incidunt quod consequuntur.</p>
+                  <h3>Alia Janica Cordero</h3>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-o"></i>
+                  
+        </div>
+        </div>
+    </div>
+</section>
+
+
+<!----Call To Action-->
+
+<section class="cta">
+    <h1>Order Through Online<br>Manila Only</h1>
+    <a href="" class="hero-btn">CONTACT US</a>
+
+</section>
+
+
+<!---- footer ---->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Maiores accusamus, harum quis consectetur adipisci officiis aliquid, 
+         <br>ipsa facere tempore quam ex accusantium eius nulla nobis, 
+         doloribus eaque repellat fugiat laborum.</p>
+         <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-envelope-o"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-mobile number"></i>
+         </div>
+         <p>Made With  <i class="fa fa-heart-o"></i> By Easy Order</p>
+
+</section>
+
+
+<!-----JavaScript for Toggle Menu -->
+
+ <script>
+
+        var  navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+
+    </script>
+
+
+
+    
+</body>
+</html>

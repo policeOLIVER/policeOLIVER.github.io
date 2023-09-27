@@ -1,0 +1,93 @@
+<html lang="en">
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORYZA CUP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200;1,300;1,500;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+</head>
+<body>
+
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/logo.jpg"></a>
+            <div class="nav-links"  id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="ABOUT.html">ABOUT</a></li>
+                    <li><a href="CONTACT.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>ABOUT US</h1>
+</section>
+
+<!----about us page---->
+
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the Unique Milk Tea Shop</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Harum, id? Reprehenderit dolorem illo laudantium commodi illum ducimus
+                 officiis iure laboriosam vitae ex. Consequuntur, vel esse totam eveniet 
+                 atque sapiente! Odio.</p>
+                 <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="img/about.jpeg">
+
+        </div>
+        
+    </div>
+
+</section>
+
+
+<!---- footer ---->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Maiores accusamus, harum quis consectetur adipisci officiis aliquid, 
+         <br>ipsa facere tempore quam ex accusantium eius nulla nobis, 
+         doloribus eaque repellat fugiat laborum.</p>
+         <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-envelope-o"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-mobile number"></i>
+         </div>
+         <p>Made With  <i class="fa fa-heart-o"></i> By Easy Order</p>
+
+</section>
+
+
+<!-----JavaScript for Toggle Menu -->
+
+ <script>
+
+        var  navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+
+    </script>
+
+
+
+    
+</body>
+</html>
